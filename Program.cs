@@ -10,6 +10,9 @@ namespace Employee_Wage
         {
             EmployeePresence employeePresence = new EmployeePresence();
             employeePresence.Execute();
+
+            DailyWage dailyWage = new DailyWage();
+            dailyWage.Execute();
         }
     }
 }
